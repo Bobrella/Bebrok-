@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = int.Parse(Console.ReadLine());
+
+            if (number % 4 == 0 && number < 100 && number % 6 != 0)
+            {
+                Console.WriteLine("делится без остатка");
+            }
+            else
+            {
+                Console.WriteLine("не делится без остатка");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
