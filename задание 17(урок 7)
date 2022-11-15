@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите число от 10 до 20");
+            int nomber = int.Parse(Console.ReadLine());
+            int squareNumber = nomber * nomber;
+
+            if(nomber >= 10 || nomber <= 20)
+            {
+                Console.WriteLine(squareNumber);
+            }
+            else
+            {
+                Console.WriteLine("Не правильное значение");
+            }
+            Console.ReadKey();
+        }
+    }
+}
