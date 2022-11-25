@@ -1,0 +1,116 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp8
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите  4 числа");
+        int numberOne = int.Parse(Console.ReadLine());  
+        int numberTwo = int.Parse(Console.ReadLine());
+        int numberThree = int.Parse(Console.ReadLine());
+        int numberFour = int.Parse(Console.ReadLine());
+        int five = 5;
+
+            Console.WriteLine("Просто выведенные числа на консоль это не баг, а просто результат сложения всех ваших числе по порядку");
+
+            if(numberOne + numberTwo >= five)
+            {
+                Console.WriteLine(numberOne + numberTwo);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberOne} end {numberTwo} не подходят");
+            }
+
+            if (numberTwo + numberThree >= five)
+            {
+                Console.WriteLine(numberThree + numberTwo);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberTwo} end {numberThree} не подходят");
+            }
+
+            if (numberThree + numberFour >= five)
+            {
+                Console.WriteLine(numberThree + numberFour);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberThree} end {numberFour} не подходят");
+            }
+
+            if (numberFour + numberOne >= five)
+            {
+                Console.WriteLine(numberOne + numberFour);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberFour} end {numberOne} не подходят");
+            }
+
+            if (numberFour + numberTwo >= five)
+            {
+                Console.WriteLine(numberOne + numberFour);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberFour} end {numberTwo} не подходят");
+            }
+
+            if (numberFour + numberThree >= five)
+            {
+                Console.WriteLine(numberOne + numberFour);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberFour} end {numberThree} не подходят");
+            }
+
+            if (numberOne + numberThree >= five)
+            {
+                Console.WriteLine(numberOne + numberThree);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberOne} end {numberThree} не подходят");
+            }
+
+            if (numberTwo + numberThree >= five)
+            {
+                Console.WriteLine(numberTwo + numberThree);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberTwo} end {numberThree} не подходят");
+            }
+
+            if (numberFour + numberThree >= five)
+            {
+                Console.WriteLine(numberFour + numberThree);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberFour} end {numberThree} не подходят");
+            }
+
+            if (numberFour + numberThree >= five)
+            {
+                Console.WriteLine(numberFour + numberThree);
+            }
+            else
+            {
+                Console.WriteLine($"Числа {numberFour} end {numberThree} не подходят");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
