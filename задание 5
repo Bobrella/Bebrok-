@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp8
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите три числа");
+            float firstNumb = float.Parse(Console.ReadLine());
+            float secondNumb = float.Parse(Console.ReadLine());
+            float thirdNumb = float.Parse(Console.ReadLine());
+
+            if (firstNumb >= 1.6 && firstNumb <= 3.8)
+            {
+                Console.WriteLine($"число {firstNumb} принадлежит к интервалу 1.6 - 3.8");
+            }
+            else
+            {
+                Console.WriteLine($"Число {firstNumb} не принадлежит к интервалу 1.6 - 3.8");
+            }
+
+            if (secondNumb >= 1.6 && secondNumb <= 3.8)
+            {
+                Console.WriteLine($"число {secondNumb} принадлежит к интервалу 1.6 - 3.8");
+            }
+            else
+            {
+                Console.WriteLine($"Число {secondNumb} не принадлежит к интервалу 1.6 - 3.8");
+            }
+
+            if (thirdNumb >= 1.6 && thirdNumb <= 3.8)
+            {
+                Console.WriteLine($"число {thirdNumb} принадлежит к интервалу 1.6 - 3.8");
+            }
+            else
+            {
+                Console.WriteLine($"Число {thirdNumb} не принадлежит к интервалу 1.6 - 3.8");
+            }
+
+            if (firstNumb >= 0.7 && firstNumb <= 5.1)
+            {
+                Console.WriteLine($"число {firstNumb} принадлежит к интервалу 0.7 - 5.1");
+            }
+            else
+            {
+                Console.WriteLine($"Число  {firstNumb} не принадлежит к интервалу 0.7 - 5.1");
+            }
+
+            if (secondNumb >= 0.7 && secondNumb <= 5.1)
+            {
+                Console.WriteLine($"число {secondNumb} принадлежит к интервалу 0.7 - 5.1");
+            }
+            else
+            {
+                Console.WriteLine($"Число {secondNumb} не принадлежит к интервалу 0.7 - 5.1");
+            }
+
+            if (thirdNumb >= 0.7 && thirdNumb <= 5.1)
+            {
+                Console.WriteLine($"число {thirdNumb} принадлежит к интервалу 0.7 - 5.1");
+            }
+            else
+            {
+                Console.WriteLine($"Число {thirdNumb} не принадлежит к интервалу 0.7 - 5.1");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
