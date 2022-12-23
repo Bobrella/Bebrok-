@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers;
+            numbers = new int[int.Parse(Console.ReadLine())];          
+            string Sum = "sum";
+            string command;
+            int sum = 0;
+
+            for ( numbers[5] > 0; numbers[5] %2 != 2)
+            {
+                Console.WriteLine("Введите комманду");
+                command= Console.ReadLine();
+
+                for (command = Sum) 
+                {
+                    sum += numbers[5];
+                }
+                Console.ReadKey();
+          
+            }
+        }
+    }
+}
