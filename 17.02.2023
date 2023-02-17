@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            print();
+
+
+        }
+
+        public static void print()
+        {
+
+            Console.WriteLine("Вывод текст без параметра.");
+
+        }
+
+        public static void print(String str)
+        {
+
+            Console.WriteLine(str);
+
+        }
+    }
+}
